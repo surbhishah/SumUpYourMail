@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumUpYourMail", "SumUpYourMail\SumUpYourMail.csproj", "{FC941B92-B60C-49D7-914B-3E042EA682B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{40A37A98-5BC5-4007-8389-D534D2C6DD95}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{33A088B8-3E11-41FE-B24C-810D53C3F420}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\SumUpYourMail-WAWS-dev.json = PublishScripts\Configurations\SumUpYourMail-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendMailWebJob", "SendMailWebJob\SendMailWebJob.csproj", "{7BB689B7-BA8A-42DD-B136-560CD80D5366}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC941B92-B60C-49D7-914B-3E042EA682B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC941B92-B60C-49D7-914B-3E042EA682B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC941B92-B60C-49D7-914B-3E042EA682B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC941B92-B60C-49D7-914B-3E042EA682B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BB689B7-BA8A-42DD-B136-560CD80D5366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB689B7-BA8A-42DD-B136-560CD80D5366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB689B7-BA8A-42DD-B136-560CD80D5366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BB689B7-BA8A-42DD-B136-560CD80D5366}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{33A088B8-3E11-41FE-B24C-810D53C3F420} = {40A37A98-5BC5-4007-8389-D534D2C6DD95}
+	EndGlobalSection
+EndGlobal
