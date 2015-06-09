@@ -474,3 +474,11 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+.glyphicon {
+    font-size: xx-large;
+    color: #f05f40
+       
+}
+.glyphicon-shield:before {
+  content: "\e271";
+}

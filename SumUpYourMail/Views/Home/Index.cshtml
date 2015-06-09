@@ -14,7 +14,6 @@
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="~/Content/font-awesome/css/font-awesome.min.css" type="text/css">
     <!-- Plugin CSS -->
-    <link rel="stylesheet" href="~/Content/css/animate.min.css" type="text/css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="~/Content/css/creative.css" type="text/css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -65,7 +64,7 @@
                 <hr>
                 <p>Sign up with us to get a daily summary mail! We promise your privacy.</p>
                 @*<a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>*@
-                <a href="@Url.Action("Index", "Users")" class="btn btn-primary btn-xl">Gmail</a>
+                <a href="@Url.Action("Index", "Gmail")" class="btn btn-primary btn-xl">Gmail</a>
 
             </div>
         </div>
@@ -93,34 +92,45 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-md-4 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
-                        <h3>Sturdy Templates</h3>
-                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                        <span class="glyphicon glyphicon-envelope"></span>
+                        <h3>Summary Mail</h3>
+                        <p class="text-muted">Get a sweet little email summarizing all the emails that you got the previous day.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-md-4 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Ready to Ship</h3>
-                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+                        <span class="glyphicon glyphicon-time"></span>
+                        <h3>Choose Your Time</h3>
+                        <p class="text-muted">Tell us what time you want the mail and we will make sure it's right there at the right time.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-md-4 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        <h3>Up to Date</h3>
-                        <p class="text-muted">We update dependencies to keep things fresh.</p>
+                        <span class="glyphicon glyphicon-eye-open"></span>
+                        <h3>Privacy</h3>
+                        <p class="text-muted">We value your privacy. You can trust us. Your email ID will never be shared and No mails will ever be stored. If you still have a doubt, it's ok, we understand. Let's be friends anyway. :) </p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
+            </div>
+            <div class="row">
+                <div class="col-md-2 text-center"></div>
+                <div class="col-md-4 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                        <h3>Made with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
+                        <span class="glyphicon glyphicon-lock"></span>
+                        <h3>Security</h3>
+                        <p class="text-muted">We understand that security is of prime importance to you. We use latest industry standards to access your mail securely.</p>
                     </div>
                 </div>
+                <div class="col-md-4 text-center">
+                    <div class="service-box">
+                        <span class="glyphicon glyphicon-ban-circle"></span>
+                        <h3>No Spam</h3>
+                        <p class="text-muted">We know that you are busy and hate spam, so we will never send a mail you didn't ask for.</p>
+                    </div>
+                </div>
+                <div class="col-md-2 text-center"></div>
             </div>
         </div>
     </section>
